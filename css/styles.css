@@ -266,9 +266,6 @@ body {
 .team-item {
   background-color: var(--first-text-color);
   border-radius: 0px 0px 4px 4px;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.team-item:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -685,6 +682,7 @@ body {
   align-items: center;
   justify-content: center;
   display: flex;
+  cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -768,11 +766,11 @@ body {
 .modal-form-field {
   margin-bottom: 8px;
 }
-.modal-form-input-icon {
+.form-icon {
   position: absolute;
   display: block;
-  width: 12px;
-  height: 12px;
+  width: 18px;
+  height: 24px;
   top: 50%;
   left: 16px;
   transform: translate(0, -50%);
@@ -850,4 +848,8 @@ body {
   background-color: #404bbf;
   color: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.politics-link {
+  color: #4d5ae5;
 }
